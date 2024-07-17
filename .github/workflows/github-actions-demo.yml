@@ -30,3 +30,4 @@ jobs:
         run: |
           echo Hello raspberry!
           ls
+          python print.py
