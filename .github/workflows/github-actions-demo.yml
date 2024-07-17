@@ -28,6 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          echo Hello raspberry! >> $GITHUB_STEP_SUMMARY
+          echo "### Hello raspberry!" >> $GITHUB_STEP_SUMMARY
           ls >> $GITHUB_STEP_SUMMARY
           python job.py >> $GITHUB_STEP_SUMMARY
