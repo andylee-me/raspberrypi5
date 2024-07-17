@@ -1,2 +1,2 @@
 while True:
-  execfile('print.py')
+  exec(open("print.py").read())
